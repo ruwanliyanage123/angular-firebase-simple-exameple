@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { StudentService } from './student.service';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
   selector: 'app-student',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StudentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: StudentService, private db: AngularFirestore) { }
 
   ngOnInit() {
   }
