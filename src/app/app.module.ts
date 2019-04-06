@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
 import { StudentComponent } from './student/student.component';
 import { StudentService } from './student/student.service';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { StudentService } from './student/student.service';
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [StudentService],
   bootstrap: [AppComponent]

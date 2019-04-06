@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { StudentService } from './student.service';
 import { AngularFirestore } from '@angular/fire/firestore';
-
+import { NgForm } from '@angular/forms';
 @Component({
   selector: 'app-student',
   templateUrl: './student.component.html',

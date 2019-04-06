@@ -1,1 +1,15 @@
-this is the student.component
+<form #form="ngForm" autocomplete="off">
+  <div>
+    <input name="#name" #name="ngModel" [(ngModel)]="service.student.name" placeholder="name">
+  </div>
+  <div>
+    <input name="#age" #age="ngModel" [(ngModel)]="service.student.age" placeholder="age">
+  </div>
+  <div>
+    <input name="#telephone" #telephone="ngModel" [(ngModel)]="service.student.telephone" placeholder="telephone">
+  </div>
+  <div>
+    <button type="submit">submit</button>
+  </div>
+</form>
+
