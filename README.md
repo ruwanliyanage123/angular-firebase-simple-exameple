@@ -1,6 +1,8 @@
 # AngularFirebaseSimpleExameple
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+This is a very simple project for who the biginners to the angular and firebase as well as the furthermore explanation the post of my blog site. then if you visit to my blog site you can get full description about this kind of projects.
+TechHub :https://ruwanliyanage.blogspot.com/2019/04/angular-with-firebase.html
 
 This is a very simple project for who the biginners to the angular and firebase as well as the furthermore explanation the post of my blog site. then if you visit to my blog site you can get full description about this kind of projects.
 TechHub :https://ruwanliyanage.blogspot.com/2019/04/angular-with-firebase.html
